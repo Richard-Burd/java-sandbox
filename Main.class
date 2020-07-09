@@ -1,0 +1,96 @@
+// Left off here: https://www.youtube.com/watch?v=r3GGV2TG_vw 1:17:34 / 6:36:38
+// RELP is here: https://repl.it/@Richard_Burd/java-sandbox
+
+class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+
+    var x = new Main(); // create
+    x.tacos();
+  }
+  public void tacos() {
+    System.out.println("Tacos!");
+  }
+
+}
+
+/////////////////
+
+// F1 => Open Shell
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("What's your name?");
+
+    // type identifies = new type();
+    // system.in == console
+    Scanner scanner = new Scanner(System.in);
+    String name = scanner.nextLine();
+
+    System.out.println("hello " + name);
+
+    String string1 = new String("This is a string");
+    String string2 = "This is an easy string" + " combined";
+    System.out.println(string2 + ":)");
+  }
+}
+
+/////////////////
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    int x = 5; // primitive
+    Integer y = 5; // object (autoboxing) - 5 is autoboxed
+    System.out.println(x);
+  }
+}
+
+/////////////////
+
+public class Main {
+  public static void main(String[] args) {
+    // constant...not a variable...it can't change.
+    final int Y = 2125;
+    System.out.println(Y);
+  }
+}
+
+/////////////////
+
+public class Main {
+  public static void main(String[] args) {
+    boolean isItTrue = true;
+    byte b = 127; // based on the ASCII Table
+    char c = 'ي'; // supports unicode
+    short s = -32768; // for really small numbers
+    int i = 43; // 32 bit number
+    long l = 400000L; // 64 bit character (ends w/ "L")
+    float f = 20.5f; // 32 bit
+    double d = 201354.3245f; // 64 bit (the "f" is optional)
+    // you usually use double instead of float...
+    // ...unless you are short on memory for s.reason
+    // float is a smaller container that a double.
+    float x = (float) (f / d);
+  }
+}
+
+/////////////////
+
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    //String x = scanner.nextLine();
+    //System.out.println(x);
+    int y = scanner.nextInt();
+    System.out.println(y);
+    int a = y + 10;
+    System.out.println(a);
+  }
+}
+
+/////////////////
