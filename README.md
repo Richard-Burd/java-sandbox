@@ -1,21 +1,10 @@
 ## Java Sandbox
-This sandbox will form the basis of my upcomming 'Java Illustrated' cheatsheet.
+This sandbox will form the basis of my upcoming 'Java Illustrated' cheat sheet.
 
 ### Installation (Ubuntu)
 Java Runtime Environment (JRE) and Java Dev Kit (JDK) are required
 Reference:
-https://www.youtube.com/watch?v=tWS4lyqHJ10
-How to Install Java JRE & JDK 14 on Ubuntu 18.04/19.10
-
-1.) $ sudo apt install openjdk-14-jre-headless
-
-2.) $ java -version       <= this checks the version of jre just installed
-
-3.) $ sudo apt install openjdk-14-jdk-headless <= this will take about 5 minutes to install
-
-4.) $ javac -version      <= this checks the version of java compiler just installed
-
-5.) ~/Desktop/dev/3/java-sandbox (master) $ javac hello.java     <= runs a file
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04
 
 ### Table of Contents
 
