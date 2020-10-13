@@ -4,9 +4,9 @@
 // Java Programming Tutorial 5 - Input and Output
 // https://www.youtube.com/watch?v=JceW6zvmA_Q&list=PL_c9BZzLwBRKIMP_xNTJxi9lIgQhE51rF&index=6
 
-// NOTE: Java is scas sensitive
+// NOTE: Java is case sensitive
 
-import java.util.Scanner; // we need this to get user input
+import java.util.Scanner; // this is a "package" - we need this to get user input
 
 public class MyLessonFive {
 

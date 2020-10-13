@@ -20,3 +20,6 @@ public class MyLessonFour {
 
 // Arguments   -are what you pass into a method
 // Parameters  -are the variables that store the data you passed in w/arguments
+// Variable    -stores some value
+// Expression  -evaluates to a value (does some math or other calculations etc.)
+// Operator    -works on operands to produce values (e.g. "+" "-" "*" et. al.)
