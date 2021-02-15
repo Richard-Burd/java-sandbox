@@ -39,10 +39,14 @@ public class PrimitiveTypes
     char my_first_character = 65;
     char my_second_character = 'A'; // do not use double-quotes, they won't work
 
+    // escape sequences
     char escaped_character_1 = '\b'; // backspace
     char escaped_character_2 = '\f'; // formfeed
     char escaped_character_3 = '\r'; // carrage return
     char escaped_character_4 = '\t'; // horizontal tab
+    char escaped_character_5 = '\n'; // newline
+    char escaped_character_6 = '\"'; // double quote character
+    char escaped_character_7 = '\\'; // backslash
 
     String first_name = "Bob";
     String last_name = "Whu";
@@ -72,6 +76,8 @@ public class PrimitiveTypes
     // Here's how to turn a string into one of the other primitive data types
     String my_number_string = "77";
     int myStringToInteger = Integer.parseInt(my_number_string);
+    // 77 not "77"
+
     System.out.println("A string converted to an integer: " + myStringToInteger);
     /*
     Similiar methods include:
